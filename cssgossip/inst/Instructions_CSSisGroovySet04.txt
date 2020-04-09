@@ -1,0 +1,14 @@
+/* Row 4 */
+footer 
+  font size, 12px
+  center align text
+  top margin, 10px
+  bottom padding, 10px
+
+Use https://iconmonstr.com to download:
+  LinkedIn icon, size: 48px
+  GitHub icon, size: 48px
+
+  Link the images to: 
+     LinkedIn: ttps://www.linkedin.com/
+     GitHub:  https://github.com/

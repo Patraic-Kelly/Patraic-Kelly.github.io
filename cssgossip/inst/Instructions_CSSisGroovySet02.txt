@@ -1,0 +1,26 @@
+/* Row 2 */
+class fonts
+ color, orange
+ font: 'Comic Sans MS',  1.5em, italic, bold
+
+class colors
+ color, red
+ font, bold
+
+class more
+  color, blue
+  text decoration, underline
+  border: 1px, dashed, gray
+  background color, #D69BBE
+  
+class backgrounds
+	color, green
+	font: Trebuchet MS, 1.25em
+
+Add peace sign for bullet image	
+	Resize peaceSign.png to 15px by 15px
+	
+	
+Resources:
+  https://www.canva.com/photo-editor/
+ 

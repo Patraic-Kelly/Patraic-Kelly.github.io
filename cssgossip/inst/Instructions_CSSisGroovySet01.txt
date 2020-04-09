@@ -1,0 +1,29 @@
+/* Row 1 */
+
+Body
+  font: Arial, 1em
+  background image use abstractPic.jpg
+  use the background size cover attribute
+
+H1
+  Select a font from the https://www.fontsquirrel.com/ website
+  font size: 2em
+
+H3
+  font: 1.5em
+  border bottom: 1px, solid, black
+
+
+ADD title tag --> CSS Learning Activity : Gossip
+ADD charset
+ADD meta descripton: Reasons to use CSS3
+ADD meta keywords: CSS, Cascading Style Sheets
+ADD author: team member names
+ADD viewport
+ADD link to an external style sheet
+
+Resources:
+ Tuesday, Chapter 12, page 264 - 265
+ HowToUseFontSquirrelFonts.pdf
+ How_to_use_webfonts-html.pdf
+

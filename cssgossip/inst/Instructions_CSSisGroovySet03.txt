@@ -1,0 +1,23 @@
+/* Row 3 */
+div outerwrapper
+ width: 650px
+ background color, #E7DBF6
+ margin-left, auto
+ margin-right, auto
+
+nav
+ width, 175px
+ background color, #E7DBF6
+ float, left
+
+article
+ margin left, 175px
+ background color, white
+ padding, 10px
+
+
+ADD HTML anchor tag elements for the unordered list that link to these websites:
+  W3Schools: https://www.w3schools.com/
+  CSS3 Generator: http://css3generator.com/
+  iconmonstr: https://iconmonstr.com/
+  Bennett Feely: https://bennettfeely.com/
