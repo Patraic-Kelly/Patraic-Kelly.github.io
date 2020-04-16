@@ -1,0 +1,104 @@
+/* Style sheet created by: 
+		Patraic Kelly 
+		4/15/20			*/
+
+/* Style for body specifies a background color */
+body {
+	background-color: #FFFFFF;
+}
+
+/* Style for the container element */
+#container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style for the header element */
+header {
+	font-family: Verdana, Arial, sans-serif;
+	background-color: #FFFFFF;
+	color: #4E9657;
+	padding: 0.5%;
+	margin-left: 1%;
+	font-size: 3em;
+}
+
+/* Style for the nav element */
+nav {
+	padding: 0.5%;
+}
+
+/* Style for the nav list item elements */
+nav li {
+	display: inline;
+}
+
+/* Style for the nav links element */
+nav li a {
+	color: #4E9657;
+	padding-left: 2%;
+	padding-right: 2%;
+	text-decoration: none;
+}
+
+/* Style for the Main element */
+main {
+	display:inline-block;
+	width:90%;
+	background-color:#4E9657;
+	padding:1em;
+
+}
+
+/* Style for Section */
+section{
+	background-color:white;
+	color:#4E9657;
+	padding:1%;
+	margin-top:1%;
+}
+
+/* Top Article Element Border */
+article:first-of-type {
+	border-top: 2px solid grey;
+}
+
+/* Style for Article Element encasing Tables */
+article {
+	color:black;
+	padding:1px;
+	margin-top: 1px;
+}
+
+/* Article heading3 centered */
+h3 {
+	text-align:center;
+}
+
+/* Styles for Aside */
+aside {
+	border: solid #4E9657;
+	border-radius: 30px;
+	color:white;
+	text-align:center;
+	font-size:1.5em;
+	background-color:#4E9657;
+	padding: 1%;
+	margin-top:1%;
+}
+
+/* Style for Footer Element*/
+footer {
+	text-align:center;
+	font-size: .70em;
+}
+
+/* Style for the table */
+table{
+  width: 100%;
+}
+td, th {
+	border: 1px solid black;
+}
+
