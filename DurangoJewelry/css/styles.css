@@ -1,0 +1,75 @@
+
+/*Patraic Kelly
+	4/17/20	*/
+
+@font-face {
+    font-family: 'chantelli_antiquaregular';
+    src: url('../fonts/chantelli_antiqua-webfont.woff2') format('woff2'),
+         url('../fonts/chantelli_antiqua-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+body {
+	background-image: url(../images/jewelry.jpg);
+	background-repeat:no-repeat;
+	background-position:top;
+	background-size:cover;
+} 
+
+#outerwrapper {	
+	border-radius:15%;
+	background: rgba(243,205,170, 0.4);
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.addrightmargin {
+	float:left;
+	border-radius:50%;
+	margin-right:10%;
+}
+
+h1 {
+	font-family: 'Pacifico', cursive, Georgia, 'Times New Roman', Times, serif;
+	font-size:4em;
+}
+
+h2 {
+	font-family:'chantelli_antiquaregular', Georgia, 'Times New Roman', Times, serif;
+	font-style:italic;
+	font-size:2em;
+}
+
+nav {
+	clear:left;
+	
+}
+nav ul{
+	list-style:none;
+	font-size:1.5em;	
+}
+
+main {
+	background-image:linear-gradient(#ffffff, #f0f9e6);
+	padding:10px;
+	margin:20px;
+	border-radius:2em;
+	font-size:1.25em;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer {
+	font-size: 1em;
+	text-align:center;
+	padding:10px;
+}
+
+
+
+
+
+
+
+
