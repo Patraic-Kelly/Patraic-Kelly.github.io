@@ -1,0 +1,112 @@
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+   box-sizing: inherit; 
+}
+
+html, body {
+    height:100%;
+    margin:0;   
+}
+
+body {
+    background: url(../images/background6.jpg) no-repeat center center fixed;
+    background-size:cover;
+    min-height:100%;
+    overflow:hidden;
+}
+
+
+#outerwrapper {
+    height:100%;
+}
+
+header {
+    overflow:hidden;
+    grid-row-start:1;    
+    width:100%;
+    margin-right:auto;
+    margin-left:auto;
+    background-color:rgba(20, 20, 31, 0.4);
+    backdrop-filter:blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    margin-bottom:0;
+}
+
+
+#logo {
+    overflow:hidden;
+    background-color:rgba(0, 0, 0, 50%);
+    margin-top:.1px;
+    margin-bottom:.1px;
+    text-align:center;
+    padding:17px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+#logo a:link,#logo a:visited{
+    font-size:10;
+    font-family: 'Gentium Basic', serif;
+    color:cornflowerblue;
+    text-decoration:none;
+}
+
+
+nav ul {
+    list-style:none;
+    margin-top:6px;
+    padding:0;
+}
+
+nav a {
+    color:rgb(17, 17, 17);
+    text-shadow:1.5px 1px 2px rgb(69, 69, 69);
+    text-decoration:none;
+    background-image:radial-gradient(#956265, #8D5D5A, #8F6064, #643F45);
+    margin-bottom:0;
+    padding: 5px 15px 4px;  
+    border:1px solid rgb(69, 69, 69);
+    border-radius:20px 20px 0 0 ;
+}
+
+
+main {
+    
+    border-top: solid rgb(85, 85, 85) 1px;
+    background-color:rgba(199, 199, 199, 10%);
+    backdrop-filter:blur(3px);
+    padding:4em;
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    height:100%;
+}
+
+section h1 {
+    font-size:50px;
+    
+}
+section p {
+    font-size:20px;
+}
+
+#push{
+    height:50px;
+}
+
+
+footer {
+    position:absolute;
+    bottom:0;
+    height:50px;
+    width:100%;   
+    text-align:center;
+    font-family: 'Gentium Basic', Arial, Helvetica, sans-serif;
+    color:cornflowerblue;
+    padding:px 4px 0px 4px;
+    border-top: solid rgb(90, 90, 90) 1px;
+    background-color:rgba(20, 20, 31, 0.4);
+}
