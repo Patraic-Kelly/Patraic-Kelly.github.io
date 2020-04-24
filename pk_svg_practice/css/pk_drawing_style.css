@@ -1,0 +1,11 @@
+svg:hover .e2{
+    fill:rgb(78, 245, 106);
+}
+
+svg:hover .e4, svg:hover .e6{
+    transform: scale(1.08)
+}
+
+.e1 {
+    transition: transform .5s;
+}
