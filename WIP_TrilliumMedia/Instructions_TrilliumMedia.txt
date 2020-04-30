@@ -1,0 +1,25 @@
+  Create an external style sheet
+  Move the embedded css styles into the external style sheet
+  Add "under construction" page for Services
+  Add "under construction" page for Contact
+  HTML file needs to be update to use HTML5 semantic tags
+     nav element, ul element, & list elements added
+
+  Make the website responsive 
+     HTML: add <meta name="viewport" content="width=device-width, initial-scale-1" />
+     CSS: establish a breakpoint with a min-width of 641px
+     Refer to the screenshots and notice that:
+          mobile: nav ul li should display as block format
+	  mobile: nav ul has padding: 0em with no bullets
+          mobile: h1 has no background image
+	  mobile: container has a background image of trilliumMobile.png
+          mobile: container has a border property
+	  mobile: container has padding: 0 .5em .5em .5em
+
+	  tablet: container has a transparent background
+	  tablet: container the background color is white
+          tablet: no border on the container
+          tablet: new image used is trilliumlogo.png
+
+
+

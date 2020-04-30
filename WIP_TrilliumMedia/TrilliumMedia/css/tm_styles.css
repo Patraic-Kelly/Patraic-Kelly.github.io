@@ -1,0 +1,118 @@
+/* Patraic Kelly
+    4/30/20*/
+
+    body { background-color:#f4ffe4; 
+        color:#333333;
+        font-family: Verdana, Arial, sans-serif;
+ }
+ #container { margin-left: auto;
+              margin-right: auto;
+              width: 80%;
+ 
+ }			 
+ h1 { background-color: #5c743d;
+      color:#ffffbe;
+      font-family: Georgia, "Times New Roman", serif;
+      background-image: url(../images/trilliumlogo.jpg);
+      background-repeat: no-repeat;
+      background-position: left;
+      /*border-radius: 15px 50px 15px 50px;*/
+      /*border: 4px solid #a1a1a1;*/
+      text-indent: 150px;
+      font-size: 3em;
+      line-height: 250%;
+      height: 120px;
+ 
+ }
+ h2 { color:#5c743d;
+      font-family: Georgia, "Times New Roman", serif;
+ }
+ p { text-indent: 3em; }
+ 
+ nav { font-weight: bold; }
+ 
+ nav ul { list-style:none; }
+
+ .companyname { color: #5c743d; 
+    font-weight: bold;
+ }
+
+ footer {  font-family: Georgia, "Times New Roman", serif;
+           font-size: .80em;
+           font-style: italic;
+           text-align: center;
+ }
+
+ /* ===============================
+Mobile Styles: 0px to 641px
+===============================
+*/
+@media only screen and (max-width: 641px) {
+
+nav ul li {
+    display:block;
+}
+nav ul {
+    padding:0em;
+}
+
+#container {
+    border:.125em solid black;
+    background: url(../images/trilliumMobile.png) center center no-repeat fixed;
+    background-size:cover;
+    padding: 0 .5em .5em .5em;
+}
+
+h1 { 
+    display:block;
+    height:5%;
+    text-indent:0;
+    font-size:200%;
+    padding:0%;
+    margin:0;
+    text-align:center;
+    background-image:none;
+    background-color:transparent;
+    color: #5c743d;
+} 
+
+}
+
+ /* ===============================
+Tablet Styles: 641px to 1024px
+===============================
+*/
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+
+    #container {
+        
+        background:transparent;
+        background-color:white;
+    }    
+
+    h1 {
+        background-image: url(../images/trilliumlogo.png);
+        background-repeat: no-repeat;
+        background-position:left;
+        
+        text-indent:4.3em;
+        text-align:end;
+        padding:0;
+        height:25%;
+        
+    }
+    
+}
+
+ /* ===============================
+ Monitor Styles:1024px and up
+===============================
+*/
+@media only screen and (min-width: 1024px) {
+
+  #container {
+    background:transparent;
+    background-color:white;
+  }  
+
+}
