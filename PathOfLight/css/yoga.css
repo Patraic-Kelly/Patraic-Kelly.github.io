@@ -1,0 +1,100 @@
+/* Patraic Kelly
+	5/1/20 */
+
+body { 
+	background-color: #F5F5F5;
+    color: #3F2860;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+header { 
+	background-color: #9BC1C2; 
+    background-image: url(../images/lilyheader.jpg);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+h1 { 
+	text-indent: 1em;
+    line-height: 400%; 
+}
+
+nav { 
+     font-weight: bold; 
+}
+
+nav ul {
+	list-style:none;
+	padding: 0;
+    margin:0;
+}
+
+nav li {
+
+    white-space: nowrap;
+}
+
+main ul {
+	margin-left:3em;
+	list-style:url(../images/yogabullet.png);
+}
+
+
+footer { 
+	background-color: #9BC1C2; 
+    font-size: small;
+	text-align: center;
+	font-style: italic;
+	padding:.5em;
+}
+
+address {
+	margin-bottom:.5em;
+	padding:0;
+}
+
+.schedule {
+	border-collapse:collapse;
+	width:100%;
+	margin-bottom:.5em;
+}
+
+thead, tr, td{
+	text-align:center;
+	border:solid black 1.5px;
+}
+
+/* =============================
+--------------------------------
+Responsive Styles
+--------------------------------
+*/
+/* ============================
+Mobile Styles: 641px
+===============================
+*/
+@media only screen and (max-width: 641px) {
+
+	nav {
+		display:block;
+	}
+
+	header { background-image:none; }
+
+	body {
+		background: url(../images/yogamobile.png) center center no-repeat;
+		background-size:cover;
+	}
+	img { display:none; }
+
+}
+/* ============================
+Tablet Styles: >641px
+===============================
+*/
+@media only screen and (min-width: 642px) {
+
+	nav li { display:inline; }
+
+}
+
