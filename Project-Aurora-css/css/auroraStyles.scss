@@ -1,0 +1,118 @@
+//Patraic Kelly - 5/7/2020
+
+@import "variables";
+@import "mixins";
+
+html, body{
+        margin:0;
+        padding:0;
+        height:100%;
+
+        .heading {
+            width:100%;
+            @include heading-shadow;
+            background:$c-primary;
+            padding:$space;
+            margin:0;
+        }
+
+        .form {
+            width:100%;
+            font-size:$space;
+            padding-left:$space;
+            
+            .label {
+                color: $c-primary;
+                display:block;
+                line-height: 2rem;
+            } 
+    
+            .input{
+                //display:block;
+                width:$input-size;
+                @include form-border;
+                background:$c-bkgd;
+                color:$c-input;
+                //font-weight: 900;
+                //font-style: italic;
+
+                &:focus {
+                    background: $c-bkgd;
+                    color: $c-accent;
+                }
+        
+                &:invalid {
+                    background:$c-alert;
+                    @include form-border($color:$c-accent);
+                    color:$c-accent;
+                }
+            }
+
+            .textarea {
+                background:$c-bkgd;
+                color:$c-primary;
+                width:$input-size;
+                height:$space;
+                @include form-border;
+            }
+
+            .email, .message {
+                margin-top:$space;
+            }
+    }
+}
+
+/*.form {
+    width: 100%;
+    padding-bottom: 1.5rem;
+}
+
+.form__heading {
+    width: 100%;
+    color: #FFF;
+    background: #15DEA5;
+    line-height: 5rem;
+    padding: 1.5rem;
+}
+     
+.form__label {
+    color: #001534;
+    display: block;
+    font-size: 2rem;
+    line-height: 2rem;
+    padding-top: 1.5rem;
+}
+
+.form__input {
+    width: 100%;
+    padding: 1.5rem;
+    background: #001534;
+    border: .1rem solid #15DEA5;
+    color: #D6FFF5;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 2.75rem;
+}
+
+.form__input:focus {
+    background: #15DEA5;
+    border: #15DEA5;
+    color: #FFF;
+}
+
+.form__input:invalid {
+    background: #D8464B;
+    border: #FFF;
+    color: #FFF;
+}
+
+.form__textarea {
+    width: 100%;
+    color: #15DEA5;
+    background: #001534;
+    border: .1rem solid #15DEA5;
+    outline: none;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}*/
+

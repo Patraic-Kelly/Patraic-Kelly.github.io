@@ -1,0 +1,20 @@
+//Patraic Kelly 5/7/20
+
+@mixin clearfix {
+    &:before,
+    &:after {
+        content: '';
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }   
+}
+
+@mixin heading-shadow($color:$c-shadow, $offset:$heading-shadow-size) {
+    text-shadow: $offset $offset $color;
+}
+
+@mixin form-border($thickness: .1rem, $format:solid, $color:$c-primary) {
+    border:$thickness $format $color;
+}

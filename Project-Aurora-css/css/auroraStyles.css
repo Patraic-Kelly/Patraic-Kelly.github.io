@@ -1,0 +1,111 @@
+/* Layout Vars */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+html .heading, body .heading {
+  width: 100%;
+  text-shadow: 0.12rem 0.12rem #3988ff;
+  background: #6320cf;
+  padding: 1.5rem;
+  margin: 0;
+}
+
+html .form, body .form {
+  width: 100%;
+  font-size: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+html .form .label, body .form .label {
+  color: #6320cf;
+  display: block;
+  line-height: 2rem;
+}
+
+html .form .input, body .form .input {
+  width: 14rem;
+  border: 0.1rem solid #6320cf;
+  background: #b4b4b3;
+  color: #45d4b0;
+}
+
+html .form .input:focus, body .form .input:focus {
+  background: #b4b4b3;
+  color: black;
+}
+
+html .form .input:invalid, body .form .input:invalid {
+  background: #ff252c;
+  border: 0.1rem solid black;
+  color: black;
+}
+
+html .form .textarea, body .form .textarea {
+  background: #b4b4b3;
+  color: #6320cf;
+  width: 14rem;
+  height: 1.5rem;
+  border: 0.1rem solid #6320cf;
+}
+
+html .form .email, html .form .message, body .form .email, body .form .message {
+  margin-top: 1.5rem;
+}
+
+/*.form {
+    width: 100%;
+    padding-bottom: 1.5rem;
+}
+
+.form__heading {
+    width: 100%;
+    color: #FFF;
+    background: #15DEA5;
+    line-height: 5rem;
+    padding: 1.5rem;
+}
+     
+.form__label {
+    color: #001534;
+    display: block;
+    font-size: 2rem;
+    line-height: 2rem;
+    padding-top: 1.5rem;
+}
+
+.form__input {
+    width: 100%;
+    padding: 1.5rem;
+    background: #001534;
+    border: .1rem solid #15DEA5;
+    color: #D6FFF5;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 2.75rem;
+}
+
+.form__input:focus {
+    background: #15DEA5;
+    border: #15DEA5;
+    color: #FFF;
+}
+
+.form__input:invalid {
+    background: #D8464B;
+    border: #FFF;
+    color: #FFF;
+}
+
+.form__textarea {
+    width: 100%;
+    color: #15DEA5;
+    background: #001534;
+    border: .1rem solid #15DEA5;
+    outline: none;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}*/
+/*# sourceMappingURL=auroraStyles.css.map */
