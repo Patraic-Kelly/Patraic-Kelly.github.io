@@ -1,0 +1,33 @@
+$c-btn-txt: black;
+$c-btn-default: $c-main;
+$c-btn-hot: $rorange;
+$c-btn-cool: $lightblue;
+
+%btn {
+    display: inline-block;
+    padding: 6px 12px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-family: $f-section;
+    user-select:none;
+    color: $c-btn-txt;
+}
+
+.btn-default {
+    @extend %btn;
+    background: $c-btn-default;
+}
+
+.btn-cool {
+    @extend %btn;
+    background: $c-btn-cool;
+}
+
+.btn-hot {
+    @extend %btn;
+    background: $c-btn-hot;
+}

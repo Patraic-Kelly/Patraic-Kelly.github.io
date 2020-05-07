@@ -1,0 +1,42 @@
+.media {
+    margin:0;
+    padding:0;
+    list-style:none;
+  
+    .item {
+      border-top: 1px dotted $c-media-border;
+      padding-bottom:10px;
+      padding-top: 10px;
+      padding-left: 10px;
+      &:hover {
+        background: $purple;
+      }
+      &:last-of-type {
+        border-bottom: 1px dotted $c-media-border;
+      }
+      @include clearfix;
+    }
+    .head {
+      margin:0;
+      padding:0;
+      color:$c-media-head;
+      font-size: 2rem;
+      #typography & {
+        color:$gold;
+      }
+    }
+  
+    p {
+      margin:0;
+      margin-right: 10px;
+    }
+    img {
+      float:left;
+      margin-right:10px;
+    }
+  
+    a {
+      text-decoration:none;
+      color:$c-media-a;
+    }
+  }

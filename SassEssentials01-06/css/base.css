@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter&family=Cardo:ital@0;1&family=Gentium+Book+Basic&family=IBM+Plex+Sans:wght@700&family=Source+Serif+Pro&family=Trirong:ital,wght@1,700&display=swap");
+/*Color Variables*/
+/*Font Variables*/
+/*Subvariables*/
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1.8rem;
+  font-family: "Gentium Book Basic", "Helvetica", serif;
+  color: #EEE8D6;
+  background-color: #873445;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #f7cf59;
+  font-family: "Cardo", times, serif;
+}
+/*# sourceMappingURL=base.css.map */
