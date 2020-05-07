@@ -1,0 +1,33 @@
+//Patraic Kelly - 5/6/20
+
+/* Variable Control */
+
+// Load Fonts
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Cardo:ital@0;1&family=Gentium+Book+Basic&family=IBM+Plex+Sans:wght@700&family=Source+Serif+Pro&family=Trirong:ital,wght@1,700&display=swap');
+
+/*Color Variables*/
+$offwhite:#EEE8D6;
+$gold: rgb(241, 188, 28);
+$hotpink: #ff00d4;
+$purple: #3b0172;
+$lightmaroon: #873445;
+$lightblue:#1ba1ee;
+$green:rgb(19, 204, 49);
+$rorange:rgb(248, 65, 9);
+
+/*Font Variables*/
+$f-main: 'Gentium Book Basic', 'Helvetica', serif;
+$f-header: 'Cardo', times, serif;
+$f-section: 'IBM Plex Sans', times, serif;
+
+/*Subvariables*/
+$c-background:$lightmaroon;
+$c-main:$offwhite;
+$c-header:$gold;
+$c-header-var: $offwhite, $gold, $lightblue, $purple, $green, $hotpink;
+$c-even-cells: transparentize($gold, $amount: .52);
+$c-b-darken: darken(adjust-hue($c-background, -10deg), 10%);
+
+$c-media-border:$lightblue;
+$c-media-head:$green;
+$c-media-a:$lightblue;
