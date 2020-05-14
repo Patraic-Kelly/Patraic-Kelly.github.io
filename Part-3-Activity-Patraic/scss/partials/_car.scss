@@ -1,0 +1,62 @@
+//Patraic Kelly 5/14/20
+
+.car {
+  height: 60px;
+  width: 200px;
+  position: absolute;
+  bottom: 80px;
+  left: 0;
+  background-image: URL("../images/car.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 99;
+  animation:start 10s ease-out forwards,
+            rollback 1s 10s linear forwards,
+            end 9s 11s ease-in forwards;
+
+  .wheel {
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    bottom: -9px;
+    background-image: URL("../images/wheel.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation:spin 3s infinite linear,
+              spin 3.5s 9.2s infinite reverse ease,
+              spin 2s 11s infinite linear;
+
+    &.back {
+      left: 28px;
+    }
+    &.front {
+      left: 155px;
+    }
+  }
+}
+
+//keyframes//
+
+@keyframes start {
+  from {left:0;}
+  to {left:270px;}
+}
+
+@keyframes rollback {
+  from {left:270px;}
+  to {left:268px;}
+
+}
+
+@keyframes end {
+  from { left:268px; }
+  to {left:110%}
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg);}
+  to { transform: rotate(360deg);}
+}
+
