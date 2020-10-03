@@ -1,0 +1,29 @@
+/*************************************************
+***
+*Original Author:Patraic Kelly                                 
+*Date Created:  4/19/20                                    
+*Version:                                         
+*Date Last Modified: 10/2/20                              
+*Modified by:PK                        
+*Modification log: Added modlog                                  
+***
+******************************************* */
+
+
+#header {
+    
+    display: grid;
+    grid-template: 25% 25% 25% 25% / 150px auto 294px;
+}
+
+#logo {
+    grid-area:1/1/span 4/auto;
+}
+
+#navbar {
+    grid-area:4/3/auto/auto;
+}
+
+.navcontainer {
+    display:flex;    
+}

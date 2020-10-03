@@ -1,0 +1,250 @@
+/*************************************************
+***
+*Original Author:Patraic Kelly                                 
+*Date Created:  4/19/20                                    
+*Version:                                         
+*Date Last Modified: 10/2/20                              
+*Modified by:PK                        
+*Modification log: Added modlog, added clock styling.                             
+***
+******************************************* */
+
+
+@font-face {
+    font-family: 'amaranthregular';
+    src: url('../fonts/amaranth-regular-webfont.woff2') format('woff2'),
+         url('../fonts/amaranth-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+   box-sizing: inherit; 
+}
+
+html, body {
+    height:100%;
+    margin:0;   
+}
+
+body {
+    background: url(../images/background6.jpg) no-repeat center center fixed;
+    background-size:cover;
+    min-height:100%;
+    overflow:hidden;
+}
+
+
+#outerwrapper {
+    height:100%;
+}
+
+header {
+    overflow:hidden;
+    grid-row-start:1;    
+    width:100%;
+    margin-right:auto;
+    margin-left:auto;
+    background-color:rgba(20, 20, 31, 0.4);
+    backdrop-filter:blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    margin-bottom:0;
+}
+
+
+#logo {
+    overflow:hidden;
+    background-color:rgba(0, 0, 0, 50%);
+    margin-top:.1px;
+    margin-bottom:.1px;
+    text-align:center;
+    padding:17px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+#logo a:link,#logo a:visited{   
+    text-shadow:1.5px 1px 2px rgb(2, 2, 2);
+    font-size:10;
+    font-family: 'Gentium Basic', Arial, Helvetica, sans-serif;
+    color:cornflowerblue;
+    text-decoration:none;
+}
+
+#contact a:link,#contact a:visited{
+    text-shadow:1.5px 1px 2px rgb(2, 2, 2);
+    font-size:10;
+    font-family: 'Gentium Basic', Arial, Helvetica, sans-serif;
+    color:cornflowerblue;
+    text-decoration:none;
+    background: radial-gradient(
+        circle,
+        rgba(95, 39, 39, 0.281) 90%,
+        rgba(0, 0, 0, 0) 100% );
+}
+
+nav ul {
+    list-style:none;
+    margin-top:6px;
+    padding:0;
+}
+
+nav a {
+    color:rgb(17, 17, 17);
+    text-shadow:1.5px 1px 2px rgb(69, 69, 69);
+    text-decoration:none;
+    background-image:radial-gradient(#956265, #8D5D5A, #8F6064, #643F45);
+    margin-bottom:0;
+    padding: 5px 15px 4px;  
+    border:1px solid rgb(69, 69, 69);
+    border-radius:20px;
+}
+
+
+main {
+    
+
+    border-top: solid rgb(85, 85, 85) 1px;
+    background-color:rgba(199, 199, 199, 10%);
+    backdrop-filter:blur(3px);
+    -webkit-backdrop-filter:blur(3px);
+    padding:4em;
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    height:100%;
+}
+
+section h1 {
+    font-family: 'amaranthregular', Arial, Helvetica, sans-serif;
+    font-size:50px;
+    
+}
+.content {
+    font-family: 'amaranthregular', Arial, Helvetica, sans-serif;
+    font-size:20px;
+}
+
+article {
+    background: radial-gradient(
+      circle,
+      rgba(95, 39, 39, 0.281) 70%,
+      rgba(0, 0, 0, 0) 100% );
+}
+
+#push{
+    height:50px;
+}
+
+.clock {
+	width: 100px;
+	height: 100px;
+	background-image: radial-gradient(#956265, #8d5d5a, #8f6064, #643f45);
+	border-radius: 50%;
+	border: 1px solid black;
+	position: relative;
+}
+
+.clock .number {
+	--rotation: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transform: rotate(var(--rotation));
+	font-size: 12px;
+}
+
+.clock .number1 {
+	--rotation: 30deg;
+}
+.clock .number2 {
+	--rotation: 60deg;
+}
+.clock .number3 {
+	--rotation: 90deg;
+}
+.clock .number4 {
+	--rotation: 120deg;
+}
+.clock .number5 {
+	--rotation: 150deg;
+}
+.clock .number6 {
+	--rotation: 180deg;
+}
+.clock .number7 {
+	--rotation: 210deg;
+}
+.clock .number8 {
+	--rotation: 240deg;
+}
+.clock .number9 {
+	--rotation: 270deg;
+}
+.clock .number10 {
+	--rotation: 300deg;
+}
+.clock .number11 {
+	--rotation: 330deg;
+}
+
+.clock .hand {
+	--rotation: 0;
+	position: absolute;
+	bottom: 50%;
+	left: 50%;
+	background-color: cornflowerblue;
+	transform-origin: bottom;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	z-index: 10;
+	transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
+}
+
+.clock::after {
+	content: "";
+	position: absolute;
+	background-color: black;
+	z-index: 11;
+	width: 4px;
+	height: 4px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+}
+
+.clock .hand.second {
+	width: 1px;
+	height: 40%;
+	background-color: cornflowerblue;
+}
+.clock .hand.minute {
+	width: 2px;
+	height: 35%;
+	background-color: black;
+}
+.clock .hand.hour {
+	width: 3px;
+	height: 30%;
+	background-color: black;
+}
+
+
+footer {
+    position:absolute;
+    bottom:0;
+    height:50px;
+    width:100%;   
+    text-align:center;
+    font-family: 'Gentium Basic', Arial, Helvetica, sans-serif;
+    color:cornflowerblue;
+    padding:px 4px 0px 4px;
+    border-top: solid rgb(90, 90, 90) 1px;
+    background-color:rgba(20, 20, 31, 0.4);
+}
